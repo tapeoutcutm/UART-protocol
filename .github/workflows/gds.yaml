@@ -53,3 +53,4 @@ jobs:
       - uses: TinyTapeout/tt-gds-action/viewer@ttsky25a
         with:
           pdk: sky130
+          artifact-name: tt-viewer-pages   # 👈 renamed artifact to avoid conflicts
